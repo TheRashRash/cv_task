@@ -2,13 +2,69 @@
     border: 1px solid red;
 }
 
+body {
+    max-width: 70%;
+}
+
 .container-fluid {
-    grid-template-columns: repeat(8, 20px);
-    grid-template-rows: repeat(8, 20px);
+    max-width: 100%;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 
 }
 
+.top {
+    display: flex;
+    justify-content: center;
+}
+
 #profile_img {
+    max-width: 70%;
+    border-radius: 50%;
+}
+
+.ed {
+    display: flex;
+}
+
+.bcu {
+ display: flex;
+ border-radius: 50%;
+
+}
+.ibm {
+
+}
+.uob {
+
+}
+.cap {
+
+}
+
+
+img {
     max-width: 20%;
-    grid-column-start: col-start 3;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.bimage {
+    display: flex;
+}
+
+.subtitle {
+    display: flex;
+    justify-self: center;
+
+}
+
+h1, h2, h3, h4, h5 {
+    display: inline-block;
+    max-width:100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
 }
