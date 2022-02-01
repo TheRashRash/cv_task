@@ -1,0 +1,14 @@
+* {
+    border: 1px solid red;
+}
+
+.container-fluid {
+    grid-template-columns: repeat(8, 20px);
+    grid-template-rows: repeat(8, 20px);
+
+}
+
+#profile_img {
+    max-width: 20%;
+    grid-column-start: col-start 3;
+}
